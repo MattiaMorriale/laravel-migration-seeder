@@ -1,9 +1,9 @@
 @extends('layouts/app')
 
 @section('content')
-    <h1>tutti i miei treni</h1>
 
-    <div class="container">
+<div class="container">
+        <h1>tutti i miei treni</h1>
         @foreach ($train as $currentTrain)
             <p>{{$currentTrain['company']}}</p>
         @endforeach
