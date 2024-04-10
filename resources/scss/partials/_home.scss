@@ -1,0 +1,40 @@
+.container{
+
+    overflow: hidden;
+    
+    h1{
+        color: orange;
+    }
+    
+    table{
+        th{
+            color: orange;
+        }
+        td{
+            color: orange;
+        }
+    }
+
+    @keyframes my-stage {
+        0% {
+        transform: translate3d(0, 0, 0);
+        }
+        100% {
+        transform: translate3d(-50%, 0, 0);
+        }
+        }
+
+    .my-stage {
+        overflow: hidden;
+        white-space: nowrap;
+        display: inline-block;
+
+        animation: my-stage 14s linear infinite;
+        }
+
+    .my-stage p {
+        display: inline-block;
+        color: orange;
+        font-size: 30px;
+        }
+}

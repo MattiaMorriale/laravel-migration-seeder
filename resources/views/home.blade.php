@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container">
-        <h1 class="py-5">tutti i miei treni</h1>
+        <h1 class="py-5">TABELLONE DEI TRENI</h1>
 
         <table class="table">
             <thead>
@@ -38,6 +38,12 @@
                     @endif
                 @endforeach
             </tbody>
-          </table>
+        </table>
+
+        <div class="my-stage">
+            <p>ATTENZIONE!! ALLONTANARSI DALLA LINEA GIALLA.. ATTENTION!! STAY AWAY FROM THE YELLOW LINE.. </p>
+            <p>ATTENZIONE!! ALLONTANARSI DALLA LINEA GIALLA.. ATTENTION!! STAY AWAY FROM THE YELLOW LINE.. </p>
+        </div>
+
     </div>
 @endsection

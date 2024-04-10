@@ -1,1 +1,15 @@
 @import "~bootstrap/scss/bootstrap";
+
+@import url(partials/_home.scss);
+
+@font-face {
+    font-family: 'led';
+    src: url('/resources/fonts/repet___.ttf');
+}
+
+body{
+
+    font-family: 'led';
+
+    
+}
