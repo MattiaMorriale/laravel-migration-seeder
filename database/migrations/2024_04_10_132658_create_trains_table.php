@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('Azienda', 200);
             $table->string('Stazione_part', 200);
             $table->string('Stazione_arr', 200);
+            $table->date('data_part');
             $table->time('Ora_part');
             $table->time('Ora_arr');
             $table->string('train_code', 15);
